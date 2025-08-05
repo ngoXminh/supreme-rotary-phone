@@ -1,0 +1,57 @@
+{
+  "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+  "@type": "dcat:Dataset",
+  "title": "FLOOD INSURANCE RATE MAP DATABASE, ALAMANCE COUNTY, NORTH CAROLINA",
+  "description": "This Flood Insurance Study was produced through a cooperative partnership between the State of North Carolina and FEMA.  The North Carolina Floodplain Mapping Program, through FEMA's Cooperating Technical State (CTS) Initiative, is conducting flood hazard analyses and producing updated, digital FIRM panels for all North Carolina communities.  Additional information regarding the North Carolina Floodplain Mapping Program and the data collected during the mapping process are available at http://www.ncfloodmaps.com.  \nThe Flood Insurance Rate Map (FIRM) Database depicts flood risk information and supporting data used to develop the risk data. The primary risk classifications used are the 1-percent-annual-chance flood event, the 0.2-percent-annual-chance flood event, and areas of minimal flood risk. The FIRM Database is derived from Flood Insurance Studies (FISs), previously published FIRMs, flood hazard analyses performed in support of the FISs and FIRMs, and new mapping data, where available. The FISs and FIRMs are published by the Federal Emergency Management Agency (FEMA).\n  This file is georeferenced to the Earth's surface using the Geographic Coordinate System (GCS) and North American Datum of 1983.",
+  "identifier": "REGION 4",
+  "issued": "2024-12-20",
+  "modified": "2024-12-20",
+  "publisher": {
+    "name": "Federal Emergency Management Agency"
+  },
+  "contactPoint": {
+    "fn": "Federal Emergency Management Agency",
+    "hasEmail": "mailto:miphelp@riskmapcds.com"
+  },
+  "accessLevel": "public",
+  "keyword": [
+    "elevation",
+    "environment",
+    "hydrology",
+    "inlandWaters",
+    "structure",
+    "transportation",
+    "oceans",
+    "FIRM",
+    "FEMA Flood Hazard Zone",
+    "FIRM Database",
+    "Special Flood Hazard Area",
+    "Flood Insurance Rate Map",
+    "CBRS",
+    "Coastal Barrier Resources System",
+    "Riverine Flooding",
+    "Coastal Flooding",
+    "NFIP",
+    "Base Flood Elevation",
+    "SFHA",
+    "Floodway",
+    "North Carolina Floodplain Mapping Program"
+  ],
+  "distribution": [
+    {
+      "accessURL": "http://www.fema.gov/view-your-communitys-preliminary-flood-hazard-data-0",
+      "mediaType": "application/octet-stream",
+      "format": "Esri Shapefile"
+    }
+  ],
+  "theme": [
+    "https://project-open-data.cio.gov/themes/disasters/"
+  ],
+  "temporal": {
+    "startDate": "2024-12-20"
+  },
+  "spatial": "https://location.data.gov/bbox/35.7941,-80.072,36.3717,-79.1573",
+  "rights": "The hardcopy FIRM and FIRM Database and the accompanying FIS are the official designation of SFHAs and Base Flood Elevations (BFEs) for the NFIP. For the purposes of the NFIP, changes to the flood risk information published by FEMA may only be performed by FEMA and through the mechanisms established in the NFIP regulations (44 CFR Parts 59-78). These digital data are produced in conjunction with the hardcopy FIRMs and generally match the hardcopy map exactly.  Acknowledgement of FEMA and the North Carolina Floodplain Mapping Program would be appreciated in products derived from these data.",
+  "accessLevelComment": "None",
+  "provenance": "Attribute Accuracy: The FIRM Database consists of vector files and associated attributes produced in conjunction with the hardcopy FEMA FIRM. The published effective FIRM and FIRM Database are issued as the official designation of the SFHAs. As such they are adopted by local communities and form the basis for administration of the NFIP. For these purposes they are authoritative. Provisions exist in the regulations for public review, appeals and corrections of the flood risk information shown to better match real world conditions. As with any engineering analysis of this type, variation from the estimated flood heights and floodplain boundaries is possible. Details of FEMA's requirements for the FISs and flood mapping process that produces these data are available in the Guidelines and Standards for Flood Risk Analysis and Mapping. Attribute accuracy was tested by manual comparison of source graphics with hardcopy plots and a symbolized display on an interactive computer graphic system. Independent quality control testing of the FIRM Database was also performed. \nTo obtain more detailed information in areas where Base Flood Elevations (BFEs) and/or floodways have been determined, users are encouraged to consult the Flood Profiles and Floodway Data and/or Summary of Stillwater Elevations tables contained within the FIS report that accompanies this FIRM Database. Users should be aware that BFEs shown in the S_BFE table may represent rounded whole-foot elevations. These BFEs are intended for flood insurance rating purposes only and should not be used as the sole source of flood elevation information. Accordingly, flood elevation data presented in the FIS report must be used in conjunction with the FIRM for purposes of construction and/or floodplain management. The 1-percent-annual-chance water-surface elevations shown in the S_XS table match the regulatory elevations shown in the FIS report.; Logical Consistency: When FEMA revises an FIS, adjacent studies are checked to ensure agreement between flood elevations at the boundaries. Likewise flood elevations at the confluence of streams studied independently are checked to ensure agreement at the confluence. The FIRM and the FIS are developed together and care is taken to ensure that the elevations and other features shown on the flood profiles in the FIS agree with the information shown on the FIRM. However, the elevations as shown on the FIRM may represent rounded whole-foot elevations. They must be shown so that a profile recreated from the elevations on the FIRM will match the FIS profiles within one half of one foot."
+}
